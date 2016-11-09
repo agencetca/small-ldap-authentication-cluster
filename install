@@ -1,0 +1,6 @@
+#!/bin/bash
+
+//SQL
+sudo su - postgres // connexion as postgres user (default admin user)
+psql -c "CREATE USER admin WITH PASSWORD 'test101';" (creation of a new role);
+//sudo -u postgres bash -c "psql -c \"CREATE USER vagrant WITH PASSWORD 'vagrant';\"" //run it from any user (might be sudo -U)

@@ -1,0 +1,34 @@
+{
+  "name": "innov24",
+  "version": "1.0.0",
+  "description": "A social worskpace for journalists and the innovation ecosystem!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agencetca/innov24.git"
+  },
+  "keywords": [
+    "journalism",
+    "innovation",
+    "workspace",
+    "social"
+  ],
+  "author": "Agence TCA",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/agencetca/innov24/issues"
+  },
+  "homepage": "https://github.com/agencetca/innov24#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-mongodb-session": "^1.2.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "http-proxy": "^1.14.0"
+  }
+}

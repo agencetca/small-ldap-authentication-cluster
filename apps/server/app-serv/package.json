@@ -1,0 +1,21 @@
+{
+  "name": "app-serv",
+  "version": "1.0.0",
+  "description": "Innov24 Applications Server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agence TCA",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-exec": "^2.1.2",
+    "gulp-header": "^1.8.8",
+    "gulp-uglify": "^2.0.0",
+    "gulp-useref": "^3.1.2",
+    "ie-shim": "^0.1.0"
+  }
+}

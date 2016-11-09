@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for f in *.pid
+do
+   kill $(cat $f)>/dev/null 2>&1
+   echo 'stopped'
+done
+

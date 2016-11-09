@@ -1,0 +1,24 @@
+#!/bin/bash
+
+TARGET=$1
+
+case $TARGET in
+"server:ldap")
+	vim apps/server/ldap-auth/server.js
+  ;;
+"server:router")
+	vim server.js
+  ;;
+"server:app-serv")
+	vim apps/server/app-serv/server.js
+  ;;
+"client:guest")
+	vim apps/client/guest/index.html
+  ;;
+"client:member")
+	vim apps/client/member/index.html
+  ;;
+"")
+  echo "USAGE : ./edit [ server:ldap || server:router || server:app-serv || client:guest || client:member ]"
+  ;;
+esac
