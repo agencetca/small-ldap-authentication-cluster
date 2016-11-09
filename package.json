@@ -29,6 +29,7 @@
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "express-session": "^1.14.1",
-    "http-proxy": "^1.14.0"
+    "http-proxy": "^1.14.0",
+    "ldap-client": "^3.1.3"
   }
 }

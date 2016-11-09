@@ -16,7 +16,7 @@ var http 		= require('http'),
     session 		= require('express-session'),
     MongoDBStore 	= require('connect-mongodb-session')(session),	
 
-    SERV_PORT = 8080;
+    SERV_PORT = 8228;
 
     app 		= express(),
     proxy 		= httpProxy.createProxyServer({}),
